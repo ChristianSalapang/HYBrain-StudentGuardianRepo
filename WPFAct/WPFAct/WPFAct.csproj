@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controller\DB_Controller.cs" />
     <Compile Include="Model\Guardians_Model.cs" />
     <Compile Include="Model\Students_Model.cs" />
     <Compile Include="ViewDetailsWindow1.xaml.cs">
@@ -110,8 +111,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controller\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
