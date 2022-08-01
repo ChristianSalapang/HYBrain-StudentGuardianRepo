@@ -56,6 +56,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Controller\DB_Controller.cs" />
+    <Compile Include="Controller\Guardians_Controller.cs" />
+    <Compile Include="Controller\Queries_Controller.cs" />
     <Compile Include="Model\Guardians_Model.cs" />
     <Compile Include="Model\Students_Model.cs" />
     <Compile Include="ViewDetailsWindow1.xaml.cs">
